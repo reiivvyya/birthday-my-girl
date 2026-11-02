@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Favorite Girl ♡</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #fff0f5;
+  color: #9e5875;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px;
+  position: relative;
+}
+
+.card {
+  background: #fffafd;
+  width: 100%;
+  max-width: 440px;
+  padding: 30px 23px;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 10px 35px #e8a9c455;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.decoration {
+  font-size: 24px;
+  letter-spacing: 8px;
+  margin-bottom: 15px;
+}
+
+.bear {
+  font-size: 75px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #e783aa;
+  font-size: 31px;
+  margin: 12px 0;
+}
+
+.subtitle {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #b77b96;
+  margin-bottom: 22px;
+}
+
+button {
+  background: #f39abb;
+  color: white;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 13px 24px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 5px 12px #e9a0bd66;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(.95);
+}
+
+.letter {
+  display: none;
+  background: #fff1f6;
+  border: 2px dashed #efb0c8;
+  border-radius: 22px;
+  padding: 22px 17px;
+  margin-top: 25px;
+  text-align: left;
+  line-height: 1.9;
+  font-size: 13px;
+  color: #995b76;
+  animation: show .8s ease;
+}
+
+@keyframes show {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.letter h2 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #e783aa;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.letter p {
+  margin-bottom: 17px;
+}
+
+.signature {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #e783aa;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 23px;
+  font-size: 11px;
+  color: #d28ba8;
+}
+
+.floating {
+  position: fixed;
+  bottom: -30px;
+  pointer-events: none;
+  z-index: 1;
+  animation: floatUp linear forwards;
+}
+
+@keyframes floatUp {
+  to {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <div class="decoration">🎀 ♡ 🎀</div>
+
+    <div class="bear">🧸</div>
+
+    <h1>Happy Birthday!</h1>
+
+    <p class="subtitle">
+      To my favorite person in the whole world. 💗<br>
+      I made a little something just for you.<br>
+      Are you ready, sayanggg?
+    </p>
+
+    <button id="openBtn" onclick="openLetter()">
+      Open your little letter 💌
+    </button>
+
+    <div class="letter" id="letter">
+
+      <h2>For My Favorite Girl ♡</h2>
+
+      <p>
+        happy birthday sayanggg, happy birthday to my favorite person. ❤️
+      </p>
+
+      <p>
+        akhirnya hari ini hari ulang tahun kamu, orang yang paling aku sayang. semoga di umur kamu yang sekarang, kamu selalu bahagia, sehat, panjang umur, dan semua yang kamu inginkan bisa tercapai yaa. aku berharap hari-hari kamu ke depannya bakal jauh lebih baik, penuh kebahagiaan, dan selalu ada alasan buat kamu tersenyum.
+      </p>
+
+      <p>
+        makasih udah hadir di hidup aku, makasih udah jadi bagian dari hari-hari aku, makasih buat semua hal kecil yang kamu lakuin. aku seneng banget bisa kenal kamu dan punya kamu di hidup aku. maaf ya kalau selama ini aku masih sering bikin kamu kesel, masih banyak kurangnya, atau belum bisa jadi pacar yang kamu harapin. aku bakal terus belajar buat jadi lebih baik buat kamu.
+      </p>
+
+      <p>
+        i hope you know how special you are to me. jangan pernah ngerasa kamu sendirian ya sayang, aku selalu berharap kamu bisa bahagia dan ngerasa dicintai. semoga hubungan kita bisa terus berjalan dengan baik, bisa saling ngerti, saling jaga, dan nggak gampang nyerah satu sama lain.
+      </p>
+
+      <p>
+        maaf ya sayang, aku belum bisa ngasih apa-apa buat kamu di hari spesial kamu ini. maaf belum bisa bikin hari ini jadi lebih istimewa dengan sesuatu yang bisa kamu pegang. tapi tunggu nanti yaa, aku pengen bisa ngasih sesuatu buat kamu, walaupun sederhana, semoga bisa bikin kamu seneng. jangan sedih yaa, yang penting kamu tahu kalau aku sayang banget sama kamu. i hope someday i can give you more than just words. ❤️
+      </p>
+
+      <p>
+        once again, happy birthday my love. i love you so much, more than words can say. semoga aku masih bisa ngerayain banyak ulang tahun kamu ke depannya. stay happy, stay healthy, and always be my favorite girl. love youuu. 💗
+      </p>
+
+      <div class="signature">
+        With all my love, ♡
+      </div>
+
+    </div>
+
+    <div class="footer">
+      made with lots of love, just for you ♡
+      <br>🎀 🧸 💗
+    </div>
+
+  </div>
+</div>
+
+<script>
+function openLetter() {
+  document.getElementById("letter").style.display = "block";
+  document.getElementById("openBtn").style.display = "none";
+  document.getElementById("letter").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+}
+
+function createFloating() {
+  const item = document.createElement("div");
+  item.className = "floating";
+
+  const decorations = ["💗", "♡", "💕", "🎀", "✨"];
+  item.innerHTML = decorations[
+    Math.floor(Math.random() * decorations.length)
+  ];
+
+  item.style.left = Math.random() * 100 + "vw";
+  item.style.fontSize = (15 + Math.random() * 17) + "px";
+  item.style.animationDuration = (5 + Math.random() * 5) + "s";
+
+  document.body.appendChild(item);
+
+  setTimeout(() => item.remove(), 10000);
+}
+
+setInterval(createFloating, 650);
+</script>
+
+</body>
+</html>
